@@ -34,3 +34,19 @@ a{
 .service{
     background-color: rgb(195, 225, 236);
 }
+.doc-about{
+    text-align: justify;
+}
+.doctor{
+    background-color: #89d6da6e;
+}
+.doc img{
+    transition: ease-in 0.5s opacity;
+}
+.doc img:hover{
+    opacity: 0.5;
+    overflow-wrap: initial;
+}
+.rating{
+    color: goldenrod;
+}

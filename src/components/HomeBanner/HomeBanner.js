@@ -16,8 +16,10 @@ const HomeBanner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>Education and Clinical Training</h3>
-                        <p>The level of education and clinical training required to earn a dental degree, and the high academic standards of dental schools, are on par with those of medical schools and are essential to preparing dentists for the safe and effective practice of modern oral health care.</p>
+                        <div>
+                            <h3>Education and Clinical Training</h3>
+                            <p>The level of education and clinical training required to earn a dental degree, and the high academic standards of dental schools, are on par with those of medical schools and are essential to preparing dentists for the safe and effective practice of modern oral health care.</p>
+                        </div>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -28,8 +30,10 @@ const HomeBanner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>More than Just Teeth and Gums</h3>
-                        <p>Dentists' areas of care include not only their patients' teeth and gums but also the muscles of the head, neck and jaw, the tongue, salivary glands, the nervous system of the head and neck and other areas.</p>
+                        <div>
+                            <h3>More than Just Teeth and Gums</h3>
+                            <p>Dentists' areas of care include not only their patients' teeth and gums but also the muscles of the head, neck and jaw, the tongue, salivary glands, the nervous system of the head and neck and other areas.</p>
+                        </div>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -40,8 +44,10 @@ const HomeBanner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Doctors of Oral Health</h3>
-                        <p>The team approach to dentistry promotes continuity of care that is comprehensive, convenient, cost effective and efficient. Members of the team include dental assistants, lab technicians and dental hygienists.</p>
+                        <div>
+                            <h3>Doctors of Oral Health</h3>
+                            <p>The team approach to dentistry promotes continuity of care that is comprehensive, convenient, cost effective and efficient. Members of the team include dental assistants, lab technicians and dental hygienists.</p>
+                        </div>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

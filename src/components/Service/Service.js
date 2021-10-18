@@ -11,9 +11,11 @@ const Service = (props) => {
                 <Card>
                     <Card.Img variant="top" src={img} />
                     <Card.Body className='service'>
-                        <p>{title}</p>
+                        <div>
+                            <p>{title}</p>
+                        </div>
                         <Card.Title>{name}</Card.Title>
-                        <Card.Text>{description.slice(0, 200)}
+                        <Card.Text className="doc-about">{description.slice(0, 200)}
                         </Card.Text>
                         <Link to={`/service/${id}`}><button className='btn btn-success'>See details</button></Link>
                     </Card.Body>

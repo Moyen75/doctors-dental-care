@@ -5,7 +5,6 @@ import Service from '../Service/Service';
 
 const Services = () => {
     const services = useData();
-    console.log(services)
     return (
         <div className='mt-3 pt-5'>
             <h1>Our Services</h1>
