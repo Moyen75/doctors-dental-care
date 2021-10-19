@@ -11,8 +11,7 @@ import '../Login/Login.css'
 const Registation = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const { setUser, signInUsingGoogle, user } = useAuth();
-    console.log('user ekhane', user)
+    const { setUser, signInUsingGoogle } = useAuth();
     const handleEmail = e => {
         setEmail(e.target.value)
     }
@@ -21,12 +20,11 @@ const Registation = () => {
     }
     const auth = getAuth();
     const createUserUsingEmailAndPassword = (e) => {
-        console.log('email and password', email, password)
+        e.preventDefault()
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 setUser(result.user)
             })
-        e.preventDefault()
     }
     return (
         <div className='d-flex justify-content-center pb-5 register'>
@@ -80,7 +78,7 @@ const Registation = () => {
                     <button type="submit" className="btn btn-primary">Register</button>
                 </form>
                 <p>-----------or---------</p>
-                <button onClick={signInUsingGoogle} className='btn btn-success'>sign in with google</button>
+                <button onClick={signInUsingGoogle} className='btn btn-success'><i className="fab fa-google"></i></button>
             </div>
 
         </div>

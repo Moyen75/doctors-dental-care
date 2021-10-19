@@ -4,7 +4,7 @@ import { useState } from "react/cjs/react.development"
 const useDocData = () => {
     const [doctors, setDoctors] = useState([]);
     useEffect(() => {
-        fetch('./doctor.json')
+        fetch('/doctor.json')
             .then(res => res.json())
             .then(data => setDoctors(data))
     }, [])

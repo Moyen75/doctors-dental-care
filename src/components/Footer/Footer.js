@@ -49,6 +49,7 @@ const Footer = () => {
 
                 </Col>
             </Row>
+            <p className='text-light bg-dark'>&copy;2021,allrights reserved. Doctor's Dental Care.</p>
         </div>
     );
 };

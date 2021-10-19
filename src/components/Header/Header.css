@@ -40,12 +40,19 @@ a{
 .doctor{
     background-color: #89d6da6e;
 }
+.doc{
+    overflow: hidden;
+}
 .doc img{
-    transition: ease-in 0.5s opacity;
+    transition: ease-in 0.6s transform;
 }
 .doc img:hover{
     opacity: 0.5;
     overflow-wrap: initial;
+    transform: scale(1.1);
+}
+.card-img{
+   overflow: hidden;
 }
 .rating{
     color: goldenrod;

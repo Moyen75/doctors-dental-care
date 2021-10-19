@@ -9,9 +9,10 @@ const Doctors = () => {
     return (
         <div className='mt-3 p-2'>
             <h1>Our specialist</h1>
+            <hr className='w-25 mx-auto text-success ' />
             <Row xs={1} md={3} sm={2} xl={3} className="g-4">
                 {
-                    doctors.map(doctor => <Doctor
+                    doctors?.map(doctor => <Doctor
                         key={doctor.id}
                         doctor={doctor}
                     ></Doctor>)

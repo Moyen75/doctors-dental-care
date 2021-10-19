@@ -2,6 +2,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import AuthProvider from './components/AuthProvider/AuthProvider';
+import Contact from './components/Contact/Contact';
 import Details from './components/Details/Details';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -39,6 +40,9 @@ function App() {
             </Route>
             <Route path='/about'>
               <About></About>
+            </Route>
+            <Route path='/contact'>
+              <Contact></Contact>
             </Route>
             <Route path='*'>
               <NotFound></NotFound>

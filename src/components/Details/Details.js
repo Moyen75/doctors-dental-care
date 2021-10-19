@@ -32,14 +32,14 @@ const Details = () => {
                                 </Card.Text>
                                 <p>Price:${serviceDetails.price}</p>
                                 <Rating
-                                    initialRating={3}
+                                    initialRating={serviceDetails.rating}
                                     emptySymbol="far fa-star rating"
                                     fullSymbol="fas fa-star rating"
                                     readonly
                                 >
                                 </Rating>
                             </Card.Body>
-                            <Link to='/about'><button className='btn btn-success'>Purchase now</button></Link>
+                            <Link to='/contact'><button className='btn btn-success'>Purchase now</button></Link>
                         </Card>
                     </Col>
                 </Row>

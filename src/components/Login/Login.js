@@ -5,7 +5,7 @@ import { useHistory, useLocation } from 'react-router';
 import './Login.css'
 
 const Login = () => {
-    const { signInUsingGoogle, setUser } = useAuth();
+    const { signInUsingGoogle, setUser, setIsLoading } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/home';
@@ -14,6 +14,9 @@ const Login = () => {
             .then(result => {
                 setUser(result.user)
                 history.push(redirect_uri)
+            })
+            .finally(() => {
+                setIsLoading(false)
             })
     }
     return (
@@ -43,7 +46,7 @@ const Login = () => {
                     <button type="submit" className="btn btn-primary">Sign in</button>
                 </form>
                 <p>-----------or---------</p>
-                <button onClick={handleGoogleSignIn} className='btn btn-success'>Sign in with google</button>
+                <button onClick={handleGoogleSignIn} className='btn btn-success'><i className="fab fa-google"></i></button>
             </div>
         </div>
     );
