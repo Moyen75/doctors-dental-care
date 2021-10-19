@@ -5,7 +5,6 @@ import Doctor from './Doctor/Doctor';
 
 const Doctors = () => {
     const doctors = useDocData();
-    console.log(doctors)
     return (
         <div className='mt-3 p-2'>
             <h1>Our specialist</h1>

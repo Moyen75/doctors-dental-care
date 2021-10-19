@@ -17,8 +17,8 @@ const HomeBanner = () => {
                     />
                     <Carousel.Caption>
                         <div>
-                            <h3>Education and Clinical Training</h3>
-                            <p>The level of education and clinical training required to earn a dental degree, and the high academic standards of dental schools, are on par with those of medical schools and are essential to preparing dentists for the safe and effective practice of modern oral health care.</p>
+                            <h1 className='text-dark'>Education and Clinical Training</h1>
+                            <p>The level of education and clinical training required to earn a dental degree, and the high academic standards of dental schools.</p>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -31,8 +31,8 @@ const HomeBanner = () => {
 
                     <Carousel.Caption>
                         <div>
-                            <h3>More than Just Teeth and Gums</h3>
-                            <p>Dentists' areas of care include not only their patients' teeth and gums but also the muscles of the head, neck and jaw, the tongue, salivary glands, the nervous system of the head and neck and other areas.</p>
+                            <h1 className='text-dark'>More than Just Teeth and Gums</h1>
+                            <p>Dentists' areas of care include not only their patients' teeth and gums but also the muscles of the head.</p>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -45,8 +45,8 @@ const HomeBanner = () => {
 
                     <Carousel.Caption>
                         <div>
-                            <h3>Doctors of Oral Health</h3>
-                            <p>The team approach to dentistry promotes continuity of care that is comprehensive, convenient, cost effective and efficient. Members of the team include dental assistants, lab technicians and dental hygienists.</p>
+                            <h1 className='text-dark'>Doctors of Oral Health</h1>
+                            <p>The team approach to dentistry promotes continuity of care that is comprehensive, convenient.</p>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>

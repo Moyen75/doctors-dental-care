@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import useAuth from '../../hooks/useAuth';
 import '../Login/Login.css'
 

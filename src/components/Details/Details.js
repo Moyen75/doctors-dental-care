@@ -3,7 +3,7 @@ import { Card, Col, Row } from 'react-bootstrap';
 import Rating from 'react-rating';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import '../Header/Header.css'
 
 const Details = () => {
@@ -16,9 +16,8 @@ const Details = () => {
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
-    console.log(services)
     const serviceDetails = services?.find(service => service.id === serviceIdNumber);
-    console.log('This is ', serviceDetails)
+
     return (
         <div className='mt-5 pt-3'>
             {
