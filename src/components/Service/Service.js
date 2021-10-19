@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import '../Header/Header.css'
 
 const Service = (props) => {
-    const { name, title, img, description, price, id } = props.service;
+    const { name, title, img, description, id } = props.service;
     return (
         <div>
             <Col>

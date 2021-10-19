@@ -20,15 +20,15 @@ const Footer = () => {
                         <Card.Text>
                             <div className='d-flex justify-content-between'>
                                 <div>
-                                    <a href="#">Our Dental</a>
-                                    <a href="#">Team</a>
-                                    <a href="#">Our Awards</a>
-                                    <a href="#">Sevices</a>
+                                    <a href="/home">Our Dental</a>
+                                    <a href="#doctors">Team</a>
+                                    <a href="#awards">Our Awards</a>
+                                    <a href="services">Sevices</a>
                                 </div>
                                 <div>
-                                    <a href="">Pricing & pricelist</a>
-                                    <a href="">Clients</a>
-                                    <a href="">Our solutions</a>
+                                    <a href="#price">Pricing & pricelist</a>
+                                    <a href="#clients">Clients</a>
+                                    <a href="#solutions">Our solutions</a>
                                 </div>
                             </div>
                         </Card.Text>
@@ -39,6 +39,11 @@ const Footer = () => {
                         <Card.Title> <h2>Social Networks</h2> </Card.Title>
                         <Card.Text>
                             Visit Doctors's Dental Care  on these social links.
+                            <div>
+                                <i className="fab fa-facebook-f p-2"></i>
+                                <i className="fab fa-twitter p-2"></i>
+                                <i className="fab fa-instagram p-2"></i>
+                            </div>
                         </Card.Text>
                     </Card.Body>
 

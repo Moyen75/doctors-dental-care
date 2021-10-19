@@ -13,6 +13,12 @@ const Doctor = (props) => {
                     <Card.Title> {name} </Card.Title>
                     <Card.Text className='doc-about'>{about}
                     </Card.Text>
+                    <button className='btn btn-success'>Book Your Appointment</button>
+                    <div>
+                        <i className="fab fa-facebook-f p-2"></i>
+                        <i className="fab fa-twitter p-2"></i>
+                        <i className="fab fa-instagram p-2"></i>
+                    </div>
                 </Card.Body>
             </Col>
         </div>

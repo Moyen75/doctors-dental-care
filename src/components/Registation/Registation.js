@@ -33,51 +33,51 @@ const Registation = () => {
             <div className='w-50 login'>
                 <h1>Register Now</h1>
                 <form onSubmit={createUserUsingEmailAndPassword}>
-                    <div class="row mb-3">
-                        <label htmlFor="firstName3" class="col-sm-2 col-form-label">First Name</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="firstName3" />
+                    <div className="row mb-3">
+                        <label htmlFor="firstName3" className="col-sm-2 col-form-label">First Name</label>
+                        <div className="col-sm-10">
+                            <input type="text" className="form-control" id="firstName3" />
                         </div>
-                    </div><div class="row mb-3">
-                        <label htmlFor="lastName3" class="col-sm-2 col-form-label">Last Name</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="lastName3" />
+                    </div><div className="row mb-3">
+                        <label htmlFor="lastName3" className="col-sm-2 col-form-label">Last Name</label>
+                        <div className="col-sm-10">
+                            <input type="text" className="form-control" id="lastName3" />
                         </div>
                     </div>
-                    <div class="row mb-3">
-                        <label htmlFor="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
+                    <div className="row mb-3">
+                        <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Email</label>
+                        <div className="col-sm-10">
                             <input type="email"
                                 onBlur={handleEmail}
-                                class="form-control" id="inputEmail3" />
+                                className="form-control" id="inputEmail3" />
                         </div>
                     </div>
-                    <div class="row mb-3">
-                        <label htmlFor="phoneNumber3" class="col-sm-2 col-form-label">Phone Number</label>
-                        <div class="col-sm-10">
+                    <div className="row mb-3">
+                        <label htmlFor="phoneNumber3" className="col-sm-2 col-form-label">Phone Number</label>
+                        <div className="col-sm-10">
                             <input type="text"
-                                class="form-control" id="phoneNumber3" />
+                                className="form-control" id="phoneNumber3" />
                         </div>
                     </div>
-                    <div class="row mb-3">
-                        <label htmlFor="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-                        <div class="col-sm-10">
+                    <div className="row mb-3">
+                        <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
+                        <div className="col-sm-10">
                             <input type="password"
                                 onBlur={handlePassword}
-                                class="form-control"
+                                className="form-control"
                                 id="inputPassword3" />
                         </div>
                     </div>
-                    <div class="row mb-3">
-                        <label htmlFor="inputPassword3" class="col-sm-2 col-form-label">Confirm Password</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword3" />
+                    <div className="row mb-3">
+                        <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Confirm Password</label>
+                        <div className="col-sm-10">
+                            <input type="password" className="form-control" id="inputPassword3" />
                         </div>
                     </div>
                     <div>
                         <div> <p>Already Registered? <Link to='/login'>Sign in</Link></p> </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Register</button>
+                    <button type="submit" className="btn btn-primary">Register</button>
                 </form>
                 <p>-----------or---------</p>
                 <button onClick={signInUsingGoogle} className='btn btn-success'>sign in with google</button>
